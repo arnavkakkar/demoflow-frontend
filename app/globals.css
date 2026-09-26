@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* 
+  Global CSS for DemoFlow
+  - @import "tailwindcss" imports all core Tailwind utilities and base styles.
+  - Smooth scrolling ensures seamless navigation when clicking anchor links like #features or #pricing.
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #030712; /* Dark slate background (slate-950) */
+  color: #f3f4f6; /* Slate-100 foreground */
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
